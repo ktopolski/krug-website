@@ -22,6 +22,8 @@
 .yardoc
 doc
 
+# ignore gems installed by docker setup
+vendor/*
 
 /config/secrets.yml
 /config/database.yml
