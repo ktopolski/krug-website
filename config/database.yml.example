@@ -2,6 +2,10 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
+# when using dockerized dev environment
+# host: postgres
+# username: postgres
+# password:
 
 development:
   <<: *default
